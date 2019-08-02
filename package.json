@@ -2,8 +2,13 @@
   "name": "http-aws-es",
   "version": "6.0.0",
   "description": "Use the elasticsearch-js client with Amazon ES",
-  "repository": "https://github.com/TheDeveloper/http-aws-es",
-  "bugs": "https://github.com/TheDeveloper/http-aws-es/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDeveloper/http-aws-es.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheDeveloper/http-aws-es/issues"
+  },
   "keywords": [
     "elasticsearch",
     "elasticsearch-js",
@@ -44,5 +49,10 @@
     "./src/node.js": "./src/xhr.js"
   },
   "author": "Geoff Wagstaff <geoff@gosquared.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/TheDeveloper/http-aws-es#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
